@@ -1,0 +1,14 @@
+divclass{
+    color:red
+}
+spanId{
+    font-size:18px;
+    margin:50px
+}
+thirdDiv{
+    height:300;
+    width:500;
+    background-color:coral;
+    border: 1px solid black;
+
+}
