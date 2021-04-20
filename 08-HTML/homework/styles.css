@@ -1,14 +1,34 @@
-divclass{
-    color:red
+body{
+    background-size: cover;
+    background-image:url("https://i.pinimg.com/originals/31/28/6c/31286c98eaca094327563de3f86fb3ab.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
-spanId{
+#divclass{
+    display:flexbox;
+    text-align: center;
+    background-color:transparent;
+    color:crimson;
+}
+#spanId{
+    display:flexbox;
+    text-align: center;
+    background-color:transparent;
     font-size:18px;
     margin:50px
 }
-thirdDiv{
-    height:300;
+
+#thirdDiv{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:fit-content;
     width:500;
-    background-color:coral;
+    margin-left: auto;
+    margin-right: auto;
+    padding:50px;
+    background-color:transparent;
     border: 1px solid black;
 
 }
