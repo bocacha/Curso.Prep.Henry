@@ -104,7 +104,14 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  return numero % 1 === 0;
+  //return numero % 1 === 0; Soluciona el Ejercicio, codigo usando Math.floor() :
+  if (numero==0){
+    return true;
+  }
+  if (Math.floor(numero)==0) {
+      return false;
+  }
+  return true;
 }
 
 function fizzBuzz(numero) {
